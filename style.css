@@ -57,10 +57,10 @@ main{
 }
 @keyframes move{
   from{
-    left:50%;
+    transform: rotate(0deg);
   }
   to{
-    left:100%;
+    transform: rotate(180deg);
   }
 }
 
@@ -90,7 +90,7 @@ main{
 .character > .head:after{
   border-radius:50%;
   height:2rem; width:2rem;
-  background:black;
+  background:red;
   z-index:1;
   content:"";
   display:block;
