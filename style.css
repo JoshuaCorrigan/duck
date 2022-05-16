@@ -114,17 +114,17 @@ body.appLab .screen * {
 
 
 .character.gone{
-  background:red;
+  background:green;
   animation-duration:3s;
   animation-name:move;
   animation-fill-mode:forwards;
 }
 @keyframes move{
   from{
-    transform: rotate(0deg);
+    left: 50%;
   }
   to{
-    transform: rotate(180deg);
+    left: 100%;
   }
 }
 
