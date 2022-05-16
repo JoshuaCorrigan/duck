@@ -154,7 +154,7 @@ body.appLab .screen * {
 .character > .head:after{
   border-radius:50%;
   height:2rem; width:2rem;
-  background:red;
+  background:black;
   z-index:1;
   content:"";
   display:block;
