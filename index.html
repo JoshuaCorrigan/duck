@@ -5,6 +5,49 @@
     </head>
     <body>
 
+        <form 
+            name="myFirstForm" 
+            id="myFirstForm" 
+            action="https://www.google.com"
+            method="get"
+            > 
+            <h1>My First Form</h1>
+            <label>
+                my name
+                <input 
+                    type="text" 
+                    name="my_name" 
+                    value="mr.good.pants" 
+                    placeholder="GIMME YOUR NAME!!!"
+                />
+            </label>
+            <label class="required">
+                <span class="required">
+                    Password
+                </span>
+                <input 
+                    type="password" 
+                    name="password" 
+                    value="password value" 
+                    placeholder="GIMME YOUR PASSWORD!!!"
+                />
+            </label>
+            <label>
+                Today
+                <input 
+                    type="date" 
+                    name="day" 
+                    value="1/10/1973" 
+                />
+            </label>
+            <input 
+                type="submit"
+                value="Give to ULTRON!!!"
+                name="my_guy"
+                id="go"
+            />
+        </form>
+
         <div class="special">
             this is the special thing... the text shows up
         </div>
@@ -20,5 +63,5 @@
             I wonder if this would be considered a full parahraph at this 
             point, maybe, maybe not. 
         </P>
-    </body>
+        <script src="myFirstScr.js"></script>
 </html>
